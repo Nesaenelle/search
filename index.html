@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="custom-search.css">
+</head>
+
+<body>
+    <div style="margin-top: 200px;"></div>
+    <div class="custom-search">
+      <img src="magnifying-glass.svg" alt="" class="custom-search__icon_search">
+      <img src="cancel.svg" alt="" class="custom-search__icon_close" data-custom-search-close>
+      <input type="text" data-custom-search-input placeholder="Пошук...">
+      <input type="hidden">
+      <div class="custom-search__region">
+        <img src="location-pointer.svg" alt="" class="custom-search__region_icon">
+        <div class="custom-search__region_name">Вся Україна</div>
+      </div>
+      <div class="custom-search__results" data-custom-search-results></div>
+    </div>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
