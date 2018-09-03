@@ -122,6 +122,7 @@ body {
 }
 
 .custom-search__results {
+    display: none;
     position: absolute;
     left: 0;
     top: 0;
@@ -150,7 +151,10 @@ body {
     /*border-top: none;*/
 }
 
-.custom-search__results_item:hover {
+.custom-search__results_item:hover, .custom-search__results_item.active {
+    background: #f7f7f7;
+}
+.custom-search__results_item.underline {
     background: #f7f7f7;
 }
 
